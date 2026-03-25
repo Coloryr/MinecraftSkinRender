@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 18
-VisualStudioVersion = 18.0.11205.157 d18.0
+VisualStudioVersion = 18.0.11205.157
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinecraftSkinRender.OpenGL", "MinecraftSkinRender.OpenGL\MinecraftSkinRender.OpenGL.csproj", "{1C2C471E-E676-4B29-880D-5A29D4E9BB19}"
 EndProject
@@ -31,6 +31,14 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinecraftSkinRender.SkinDownload", "MinecraftSkinRender.SkinDownload\MinecraftSkinRender.SkinDownload.csproj", "{C35CDD4D-DA8D-4756-A280-44AD83843EC4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinecraftSkinRender.Test", "MinecraftSkinRender.Test\MinecraftSkinRender.Test.csproj", "{8C64E36B-79B9-43C8-885F-3EF1AE8F7197}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Direct3D", "Direct3D", "{55A40A60-3F9B-46B7-9F0C-A6E69DDE5A94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinecraftSkinRender.Direct3D", "MinecraftSkinRender.Direct3D\MinecraftSkinRender.Direct3D.csproj", "{EE99D49D-751A-4FEC-8B64-4CD2FC173F99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinecraftSkinRender.Direct3D.Silk", "MinecraftSkinRender.Direct3D.Silk\MinecraftSkinRender.Direct3D.Silk.csproj", "{C9B9B4B6-2D26-44A6-B64F-75E3CD64EFEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinecraftSkinRender.Direct3D.WinUI3", "MinecraftSkinRender.Direct3D.WinUI3\MinecraftSkinRender.Direct3D.WinUI3.csproj", "{5AC89BA9-FE8A-4A32-8004-3289801DEE62}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -78,6 +86,20 @@ Global
 		{8C64E36B-79B9-43C8-885F-3EF1AE8F7197}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C64E36B-79B9-43C8-885F-3EF1AE8F7197}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C64E36B-79B9-43C8-885F-3EF1AE8F7197}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE99D49D-751A-4FEC-8B64-4CD2FC173F99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE99D49D-751A-4FEC-8B64-4CD2FC173F99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE99D49D-751A-4FEC-8B64-4CD2FC173F99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE99D49D-751A-4FEC-8B64-4CD2FC173F99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9B9B4B6-2D26-44A6-B64F-75E3CD64EFEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9B9B4B6-2D26-44A6-B64F-75E3CD64EFEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9B9B4B6-2D26-44A6-B64F-75E3CD64EFEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9B9B4B6-2D26-44A6-B64F-75E3CD64EFEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AC89BA9-FE8A-4A32-8004-3289801DEE62}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{5AC89BA9-FE8A-4A32-8004-3289801DEE62}.Debug|Any CPU.Build.0 = Debug|x64
+		{5AC89BA9-FE8A-4A32-8004-3289801DEE62}.Debug|Any CPU.Deploy.0 = Debug|x64
+		{5AC89BA9-FE8A-4A32-8004-3289801DEE62}.Release|Any CPU.ActiveCfg = Release|x64
+		{5AC89BA9-FE8A-4A32-8004-3289801DEE62}.Release|Any CPU.Build.0 = Release|x64
+		{5AC89BA9-FE8A-4A32-8004-3289801DEE62}.Release|Any CPU.Deploy.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -88,6 +110,9 @@ Global
 		{57C6EA6E-353D-4E6C-AF47-0F396BAFA377} = {F9E862CC-5617-4DD1-94BF-7FAC86584428}
 		{D2BFBC20-59C5-465A-9C31-E85A4461956D} = {F9E862CC-5617-4DD1-94BF-7FAC86584428}
 		{981D7CF8-4A72-4067-9F22-06056AAFB6E1} = {F9E862CC-5617-4DD1-94BF-7FAC86584428}
+		{EE99D49D-751A-4FEC-8B64-4CD2FC173F99} = {55A40A60-3F9B-46B7-9F0C-A6E69DDE5A94}
+		{C9B9B4B6-2D26-44A6-B64F-75E3CD64EFEC} = {55A40A60-3F9B-46B7-9F0C-A6E69DDE5A94}
+		{5AC89BA9-FE8A-4A32-8004-3289801DEE62} = {55A40A60-3F9B-46B7-9F0C-A6E69DDE5A94}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D419F0CC-FD7E-4029-8FE8-5D679F06E31C}

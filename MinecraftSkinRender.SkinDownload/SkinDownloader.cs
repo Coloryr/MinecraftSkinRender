@@ -49,6 +49,8 @@ public static class SkinDownloader
                 var data = await MinecraftAPI.Client.GetByteArrayAsync(obj!.Textures.Cape.Url);
                 File.WriteAllBytes("cape.png", data);
             }
+
+            Console.WriteLine("Download skin done");
         }
     }
 }

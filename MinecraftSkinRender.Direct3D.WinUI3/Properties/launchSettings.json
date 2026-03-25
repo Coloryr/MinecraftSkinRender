@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "MinecraftSkinRender.Direct3D.WinUI3 (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "MinecraftSkinRender.Direct3D.WinUI3 (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
